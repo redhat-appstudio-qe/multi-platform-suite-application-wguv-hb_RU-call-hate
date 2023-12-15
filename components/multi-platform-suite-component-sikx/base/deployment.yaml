@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: multi-platform-suite-component-sikx
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-appstudio-qe/multi-platform-build-tenant/multi-platform-suite-application-wguv/multi-platform-suite-component-sikx@sha256:8a0755c057e2f8e1dd8e3b4975508ed59dcaec73282ac6eded564844d1effb05
         name: my-go
         ports:
         - containerPort: 8081
